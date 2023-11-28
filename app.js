@@ -11,3 +11,6 @@ function filterOutOdds() {
 // Refactor it to use the rest operator & an arrow function
 /* Write an ES2015 Version */
 
+const filterOutOdds = (...nums) => nums.filter(val => % 2 === 0);
+
+
